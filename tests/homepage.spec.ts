@@ -93,11 +93,11 @@ test('Adding admin', async ({ page }) => {
     await page.getByPlaceholder('Type for hints...').fill('a');
     await page.getByRole('textbox').nth(2).click();
     await page.getByRole('textbox').nth(2).click();
-    await page.getByRole('textbox').nth(2).fill('jeblina');
+    await page.getByRole('textbox').nth(2).fill('slniecko');
     await page.getByRole('textbox').nth(3).click();
-    await page.getByRole('textbox').nth(3).fill('kokotek123');
+    await page.getByRole('textbox').nth(3).fill('branislav123');
     await page.getByRole('textbox').nth(4).click();
-    await page.getByRole('textbox').nth(4).fill('kokotek123');
+    await page.getByRole('textbox').nth(4).fill('branislav123');
     await page.getByRole('button', { name: 'Save' }).click();
     
 
