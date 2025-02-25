@@ -10,9 +10,9 @@ export class LoginPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.usernameInput = page.locator('[placeholder="Username"]');/*tato lokalizacia funguje*/
-    this.passwordInput = page.locator('[placeholder="Password"]');/*tato lokalizacia funguje*/
-    this.loginButton = page.locator('button:has-text("Login")');/*tato lokalizacia funguje*/
+    this.usernameInput = page.locator('[placeholder="Username"]');
+    this.passwordInput = page.locator('[placeholder="Password"]');
+    this.loginButton = page.locator('button:has-text("Login")');
     this.invalidCredentialsMessage = page.getByText('Invalid credentials');
     this.missingCredentialsMessage = page.getByText('Required');
 
