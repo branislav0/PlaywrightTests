@@ -44,11 +44,11 @@ test.fixme('Searchbar', async ({ page }) => {
     await expect(homepage.pimIcon).toBeVisible();
     await homepage.searchBar.clear();
 
-    await homepage.searchBar.fill("Leave");/*tento test nefunguje treba doplnit checker*/
+    await homepage.searchBar.fill("Leave");
     
     await homepage.searchBar.clear();
     
-    await homepage.searchBar.fill("Time"); /*tento test nefunguje treba doplnit checker*/
+    await homepage.searchBar.fill("Time"); 
     
     await homepage.searchBar.clear();
     await homepage.searchBar.fill("Recruitment");
@@ -61,7 +61,7 @@ test.fixme('Searchbar', async ({ page }) => {
     await expect(homepage.performanceIcon).toBeVisible();
 
     await homepage.searchBar.clear();
-    await homepage.searchBar.fill("Dashboard");/*tento test nefunguje treba doplnit checker*/
+    await homepage.searchBar.fill("Dashboard");
     
     await homepage.searchBar.clear();
     await homepage.searchBar.fill("Directory");
